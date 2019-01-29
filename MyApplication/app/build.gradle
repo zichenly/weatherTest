@@ -4,7 +4,7 @@ android {
     compileSdkVersion 28
     defaultConfig {
         applicationId "com.mchina.myapplication"
-        minSdkVersion 17
+        minSdkVersion 21
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
@@ -30,5 +30,7 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     //    动画
     implementation 'com.airbnb.android:lottie:2.7.0'
-
+    //zxing 二维码
+    implementation 'com.google.zxing:zxing-parent:3.3.3'
+    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.42'
 }
